@@ -9,9 +9,14 @@ class ProductoController extends Controller
 {
 
     public function index()
-    {
-        return response()->json(Producto::all(), 200); //200: OK
-    }
+{
+    // Obtener todos los productos de la base de datos
+    $productos = Producto::all();
+
+    // Retornar la vista 'productos.index' y pasar los productos a la vista
+    return view('productos.index', compact('productos'));
+}
+
 
 
     public function create()
