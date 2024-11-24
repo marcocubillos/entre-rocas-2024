@@ -23,7 +23,7 @@
   </div>
   {{-- menu desktop --}}
   <div class="flex-1 hidden md:flex space-x-4">
-  <a href="{{ route('home') }}" class="btn btn-ghost btn-sm">Minimercado2024</a>
+  <a href="{{ route('home') }}" class="btn btn-ghost btn-sm">EntreRocasGlamping</a>
   <a href="{{ route('home') }}" class="btn btn-ghost btn-sm">Servicios</a>
   <a href="{{ route('productos.index') }}" class="btn btn-ghost btn-sm">Productos</a>
   <a href="{{ route('home') }}" class="btn btn-ghost btn-sm">Acerca de nosotros</a>
